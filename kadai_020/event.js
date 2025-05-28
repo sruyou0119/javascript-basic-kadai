@@ -1,6 +1,6 @@
 const clickBtn = document.getElementById('btn');
+const textOverWrite = document.getElementById('text'); 
 
 clickBtn.addEventListener('click', () => {
-    const textOverWrite = document.getElementById('text');
     textOverWrite.textContent = 'ボタンをクリックしました';
 });
