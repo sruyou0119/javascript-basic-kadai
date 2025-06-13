@@ -63,6 +63,8 @@ const keyPress = e => {
   untyped = untyped.substring(1);
   typedfield.textContent = typed;
   untypedfield.textContent = untyped;
+
+  //入力数をカウントし、表示
   input.textContent = score;
 
   // テキストがなくなったら新しいテキストを表示
